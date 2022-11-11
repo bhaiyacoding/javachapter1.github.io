@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #F4F2FD;
+  font-family: "Lato", sans-serif;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  gap: 40px;
+}
+.container .card-white {
+  color: #242C44;
+  background: #fff;
+}
+.container .card-white ul {
+  margin: 20px 0 120px;
+}
+.container .card-dark {
+  background: #242C44;
+  color: #fff;
+}
+.container .card-dark ul {
+  margin: 20px 0 60px;
+}
+
+.card {
+  width: 250px;
+  height: 1040px;
+  border-radius: 15px;
+  padding: 40px 30px 20px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.178);
+}
+.card .card-content {
+  margin: 0 20px 0 40px;
+}
+.card h5 {
+  font-size: 1.2rem;
+}
+.card .dollar {
+  font-size: 2.2rem;
+  font-weight: 900;
+  margin: 30px 0 60px;
+}
+.card span {
+  color: #9FA3AE;
+  font-weight: 400;
+  font-size: 14px;
+}
+.card ul {
+  list-style-type: none;
+}
+.card li {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  font-size: 14px;
+}
+.card li span {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card li .list-dark {
+  background-color: #242C44;
+  color: #fff;
+}
+.card li .list-white {
+  background-color: #fff;
+  color: #242C44;
+}
+.card .btn {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 6vh;
+  border-radius: 50px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+.card .btn-dark {
+  background-color: #242C44;
+  color: #fff;
+}
+.card .btn-white {
+  background-color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    margin: 20px 0;
+  }
+}
+
+.div1{
+  color: #000000;
+}
